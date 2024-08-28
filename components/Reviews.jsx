@@ -54,7 +54,7 @@ const Reviews = () => {
             <Swiper slidesPerView={1} breakpoints={{
                 640: {slidesPerView: 2},
                 1400: {slidesPerView: 3}
-            }} spaceBetween={30} modules={[Pagination]} pagination={{clickable: true}} className="h-[400px]"  > 
+            }} spaceBetween={30} modules={[Pagination]} pagination={{clickable: true}} className="sm:h-[400px] h-[450px]"  > 
                 {reviewsData.map((person, index)=>{
                     return (
                         <SwiperSlide key={index}>

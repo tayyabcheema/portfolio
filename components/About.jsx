@@ -33,12 +33,12 @@ const qualificationData = [
       {
         university: "University of Gujrat",
         qualification: "Bachelor in Computer Science",
-        years: "2020 - 2024",
+        years: "Nov 2020 - July 2024",
       },
       {
-        university: "Punjab College Phalia",
-        qualification: "Intermediate in Computer Science",
-        years: "2017 - 2019",
+        university: "Coursera",
+        qualification: "Meta Certified Full-Stack Developer",
+        years: "Jan 2023 - August 2023",
       },
     ],
   },
@@ -48,12 +48,12 @@ const qualificationData = [
       {
         company: "Qari Connect",
         role: "Full Stack Developer",
-        years: "May 2024 - Present",
+        years: "April 2024 - Aug 2024",
       },
       {
         company: "SkillShaks",
         role: "Backend Developer",
-        years: "April 2024 - July 2024",
+        years: "Feb 2024 - July 2024",
       },
     ],
   },

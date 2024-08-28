@@ -16,7 +16,7 @@ import Socials from "./Socials";
 
 const Hero = () => {
   return (
-    <section className="py-12 xl:py-24 h-[84vh] xl:pt-20 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none">
+    <section className="py-12 xl:py-24 sm:h-[84vh] xl:pt-20 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none">
       <div className="container mx-auto">
         <div className="flex justify-between gap-x-8">
           {/* text */}
@@ -24,7 +24,7 @@ const Hero = () => {
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
               Full-Stack Developer
             </div>
-            <h1 className="h1 mb-4">Hello, My name is Tayyab Cheema</h1>
+            <h1 className="sm:text-6xl text-4xl leading-[45px] font-bold sm:leading-[65px] sm:tracking-[-2px] mb-6">Hello, My name is Tayyab Cheema</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
             Backend-focused full stack developer specializing in robust, scalable applications with seamless performance.
             </p>
@@ -35,7 +35,7 @@ const Hero = () => {
                   Contact me <Send size={18} />
                 </Button>
               </Link>
-              <Link href="https://drive.google.com/file/d/14hnI1WFJhEtD2DYNmpKTLjm_CeAswYCH/view?usp=drive_link" target="_blank">
+              <Link href="https://drive.google.com/file/d/1SeTBM34zR9vHUNvYjntBcL1bEK1b-8He/view?usp=drive_link" target="_blank">
               <Button variant="secondary" className="gap-x-2">
                 Download CV <Download size={18} />
               </Button>
@@ -75,8 +75,8 @@ const Hero = () => {
           </div>
         </div>
         {/* icon */}
-        <div className="hidden md:flex absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce">
-          <RiArrowDownLine className="text 3-xl text-primary" />
+        <div className="hidden md:flex absolute left-2/4 bottom-44 xl:bottom-6 animate-bounce">
+          <RiArrowDownLine className="text-2xl text-primary" />
         </div>
       </div>
     </section>
