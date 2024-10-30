@@ -46,14 +46,14 @@ const qualificationData = [
     title: "experience",
     data: [
       {
-        company: "Qari Connect",
+        company: "Rev9 Solutions",
         role: "Full Stack Developer",
-        years: "April 2024 - Aug 2024",
+        years: "November 2024 - Present",
       },
       {
         company: "SkillShaks",
         role: "Backend Developer",
-        years: "Feb 2024 - July 2024",
+        years: "April 2024 - July 2024",
       },
     ],
   },
