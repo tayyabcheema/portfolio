@@ -35,7 +35,7 @@ const Hero = () => {
                   Contact me <Send size={18} />
                 </Button>
               </Link>
-              <Link href="https://drive.google.com/file/d/1FBqjYF02y--lI79dUyguAI5b3nzoNcHf/view?usp=drive_link" target="_blank">
+              <Link href="https://drive.google.com/file/d/1KoYja8ZNReR2rxhvUOSG4yL49Qrxci1v/view?usp=drive_link" target="_blank">
               <Button variant="secondary" className="gap-x-2">
                 Download CV <Download size={18} />
               </Button>
