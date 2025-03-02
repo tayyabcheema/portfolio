@@ -24,9 +24,12 @@ const Hero = () => {
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
               Full-Stack Developer
             </div>
-            <h1 className="sm:text-6xl text-4xl leading-[45px] font-bold sm:leading-[65px] sm:tracking-[-2px] mb-6">Hello, My name is Tayyab Cheema</h1>
+            <h1 className="sm:text-6xl text-4xl leading-[45px] font-bold sm:leading-[65px] sm:tracking-[-2px] mb-6">
+              Hello, My name is Tayyab Cheema
+            </h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-            Backend-focused full stack developer specializing in robust, scalable applications with seamless performance.
+              Backend-focused full stack developer specializing in robust,
+              scalable applications with seamless performance.
             </p>
             {/* buttons */}
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
@@ -35,10 +38,13 @@ const Hero = () => {
                   Contact me <Send size={18} />
                 </Button>
               </Link>
-              <Link href="https://drive.google.com/file/d/1KoYja8ZNReR2rxhvUOSG4yL49Qrxci1v/view?usp=drive_link" target="_blank">
-              <Button variant="secondary" className="gap-x-2">
-                Download CV <Download size={18} />
-              </Button>
+              <Link
+                href="https://drive.google.com/file/d/1V0--1Tn75xdj1oLYhS_x6_tzGY7hfm4c/view?usp=drive_link"
+                target="_blank"
+              >
+                <Button variant="secondary" className="gap-x-2">
+                  Download CV <Download size={18} />
+                </Button>
               </Link>
             </div>
             {/* Socials */}
@@ -50,19 +56,22 @@ const Hero = () => {
           {/* Image */}
           <div className="hidden xl:flex relative ">
             {/* Badge */}
-            <Badge conatainerStyles="absolute top-[24%] -left-[5rem]"
+            <Badge
+              conatainerStyles="absolute top-[24%] -left-[5rem]"
               icon={<RiBriefcase4Fill />}
               endCountNum={2}
               badgeText="Year Of Experience"
             />
             {/* Badge 2 */}
-            <Badge conatainerStyles="absolute top-[80%] -left-[1rem]"
+            <Badge
+              conatainerStyles="absolute top-[80%] -left-[1rem]"
               icon={<RiTodoFill />}
               endCountNum={6}
               badgeText="Finished Projects"
             />
             {/* Badge 3 */}
-            <Badge conatainerStyles="absolute top-[55%] -right-8"
+            <Badge
+              conatainerStyles="absolute top-[55%] -right-8"
               icon={<RiTeamFill />}
               endCountNum={3}
               badgeText="Happy Clients"

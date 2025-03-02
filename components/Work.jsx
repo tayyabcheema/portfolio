@@ -24,7 +24,7 @@ const ProjectData = [
     name: "Portfolio",
     description:
       "Explore my portfolio website to see my work as a MERN stack developer, showcasing projects that blend creativity with technical expertise.",
-    link: "https://portfolio-qcy8ku5sr-tayyab-cheemas-projects-4eba5820.vercel.app/",
+    link: "https://tayyabcheema-portfolio.vercel.app/",
     github: "https://github.com/tayyabcheema/portfolio",
   },
 
@@ -34,7 +34,7 @@ const ProjectData = [
     name: "Lifeflow",
     description:
       "Lifeflow is a blood management system for tracking stock, scheduling donations, and managing appointments efficiently.",
-    link: "/",
+    link: "https://lifeflow-frontend-client.vercel.app/",
     github: "https://github.com/tayyabcheema/Lifeflow-FYP",
   },
   {
@@ -43,7 +43,7 @@ const ProjectData = [
     name: "Hotel Reservation",
     description:
       "Hotel reservation website for users to easily search, compare, and book rooms with real-time availability and secure payments.",
-    link: "/",
+    link: "https://impala.travel/",
     github: "https://github.com/tayyabcheema/Hotel-Reservation",
   },
   {
@@ -52,7 +52,7 @@ const ProjectData = [
     name: "Shopsy",
     description:
       "Shopsy an online shopping website that allows users to browse, compare, and purchase products easily with a secure checkout process",
-    link: "/",
+    link: "https://www.onlineshopsy.in/",
     github: "/",
   },
   {
@@ -61,7 +61,7 @@ const ProjectData = [
     name: "Real Estate",
     description:
       "Real Estate website that enables users to search, compare, and inquire about properties, providing detailed options.",
-    link: "/",
+    link: "https://maahomes.in",
     github: "/",
   },
   {
