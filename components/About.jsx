@@ -48,12 +48,12 @@ const qualificationData = [
       {
         company: "Rev9 Solutions",
         role: "Full Stack Developer",
-        years: "November 2024 - Present",
+        years: "October 2024 - Present",
       },
       {
-        company: "SkillShaks",
-        role: "Backend Developer",
-        years: "April 2024 - July 2024",
+        company: "Boson Studio",
+        role: "Frontend Developer",
+        years: "October 2022 - July 2024",
       },
     ],
   },

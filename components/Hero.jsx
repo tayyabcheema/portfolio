@@ -39,7 +39,7 @@ const Hero = () => {
                 </Button>
               </Link>
               <Link
-                href="https://drive.google.com/file/d/1V0--1Tn75xdj1oLYhS_x6_tzGY7hfm4c/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1wRF0YUGMZAe94o49N24ZZHzJomAwu4Bl/view?usp=drive_link"
                 target="_blank"
               >
                 <Button variant="secondary" className="gap-x-2">
@@ -59,7 +59,7 @@ const Hero = () => {
             <Badge
               conatainerStyles="absolute top-[24%] -left-[5rem]"
               icon={<RiBriefcase4Fill />}
-              endCountNum={2}
+              endCountNum={3}
               badgeText="Year Of Experience"
             />
             {/* Badge 2 */}
