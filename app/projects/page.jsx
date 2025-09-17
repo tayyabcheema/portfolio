@@ -71,6 +71,25 @@ const ProjectData = [
     link: "/",
     github: "/",
   },
+    {
+    image: "/work/aspiro.png",
+    category: "full stack",
+    name: "Aspiro",
+    description:
+      "Aspiro is a AI based career path platform which suggests users best courses analyzing their CV and questionner.",
+    link: "https://aspiro-frontend.vercel.app/",
+    github: "https://github.com/tayyabcheema/Aspiro-Frontend",
+  },
+      {
+    image: "/work/soarfare.png",
+    category: "next js",
+    name: "SoarFare",
+    description:
+      "Soarfare is a flight booking platform to book flights built in nextjs with shadcn, tailwindcss and framer motion.",
+    link: "https://soarfare-tayyabcheema.vercel.app/",
+    github: "https://github.com/tayyabcheema",
+  },
+  
 ];
 
 // Filtered Projects
