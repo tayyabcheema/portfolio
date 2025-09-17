@@ -37,7 +37,7 @@ const Contact = () => {
             {/* Address */}
             <div className="flex items-center gap-x-8">
               <HomeIcon size={18} className="text-primary" />
-              <div>Phalia, Mandi-Baha-Uddin Pakistan</div>
+              <div>Mandi-Baha-Uddin, Pakistan</div>
             </div>
             {/* Phone Number */}
             <div className="flex items-center gap-x-8">
