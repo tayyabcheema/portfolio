@@ -46,14 +46,19 @@ const qualificationData = [
     title: "experience",
     data: [
       {
+        company: "Devthon Labs",
+        role: "Founder",
+        years: "July 2025 - Present",
+      },
+      // {
+      //   company: "Boson Studio",
+      //   role: "Frontend Developer",
+      //   years: "October 2022 - July 2024",
+      // },
+      {
         company: "Rev9 Solutions",
         role: "Full Stack Developer",
         years: "October 2024 - Present",
-      },
-      {
-        company: "Boson Studio",
-        role: "Frontend Developer",
-        years: "October 2022 - July 2024",
       },
     ],
   },

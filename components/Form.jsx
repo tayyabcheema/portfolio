@@ -3,7 +3,13 @@
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
-import { User, MailIcon, ArrowRightIcon, MessageSquare } from "lucide-react";
+import {
+  User,
+  MailIcon,
+  ArrowRightIcon,
+  MessageSquare,
+  Phone,
+} from "lucide-react";
 import emailjs from "@emailjs/browser";
 import { useEffect, useRef, useState } from "react";
 
@@ -23,7 +29,10 @@ const Form = () => {
         process.env.NEXT_PUBLIC_PUBLIC_KEY
       )
       .then(
-        () => setStatus("Email Sent Successfully! ✅ "),
+        () => {
+          setStatus("Email Sent Successfully! ✅ ");
+          formref.current.reset(); // ✅ Clear form after success
+        },
         (error) => {
           console.log(error);
           setStatus("Failed to Send Email! ❌");
@@ -49,7 +58,7 @@ const Form = () => {
       {/* Input Name */}
       <div className="relative flex items-center">
         <Input
-          type="name"
+          type="text"
           name="user_name"
           id="name"
           placeholder="Name"
@@ -57,6 +66,7 @@ const Form = () => {
         />
         <User className="absolute right-6" size={20} />
       </div>
+
       {/* Input Email */}
       <div className="relative flex items-center">
         <Input
@@ -68,17 +78,39 @@ const Form = () => {
         />
         <MailIcon className="absolute right-6" size={20} />
       </div>
+
       {/* Input Message */}
       <div className="relative flex items-center">
         <Textarea name="message" placeholder="Message" required />
         <MessageSquare className="absolute top-4 right-6" size={20} />
       </div>
-      <Button
-        type="submit"
-        className="flex sm:items-center gap-x-1 sm:max-w-[166px]"
-      >
-        Let's talk <ArrowRightIcon size={20} />{" "}
-      </Button>
+
+      {/* Action Buttons */}
+      <div className="flex gap-x-2 sm:max-w-[340px]">
+        {/* Submit Button */}
+        <Button
+          type="submit"
+          className="flex items-center gap-x-1 w-full sm:w-auto"
+        >
+          Let's talk <ArrowRightIcon size={20} />
+        </Button>
+
+        {/* WhatsApp Button */}
+        <a
+          href="https://wa.me/923092867068?text=Hi%20I%20want%20to%20talk%20with%20you"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-full sm:w-auto"
+        >
+          <Button
+            type="button"
+            className="flex items-center gap-x-1 w-full sm:w-auto bg-green-500 hover:bg-green-600 text-white"
+          >
+            WhatsApp <Phone size={20} />
+          </Button>
+        </a>
+      </div>
+
       {status && <p className="text-sm text-gray-600">{status}</p>}
     </form>
   );
