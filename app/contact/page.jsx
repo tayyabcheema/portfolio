@@ -37,12 +37,12 @@ const Contact = () => {
             {/* Address */}
             <div className="flex items-center gap-x-8">
               <HomeIcon size={18} className="text-primary" />
-              <div>Mandi-Baha-Uddin, Pakistan</div>
+              <div>Bucharest, Romania</div>
             </div>
             {/* Phone Number */}
             <div className="flex items-center gap-x-8">
               <PhoneCall size={18} className="text-primary" />
-              <div>+92 309 2867068</div>
+              <div>+40731265498</div>
             </div>
           </div>
           <Form />

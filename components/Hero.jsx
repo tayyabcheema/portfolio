@@ -39,7 +39,7 @@ const Hero = () => {
                 </Button>
               </Link>
               <Link
-                href="https://drive.google.com/file/d/1wRF0YUGMZAe94o49N24ZZHzJomAwu4Bl/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1EiQxoUdsWgKgZz2w9UqQD3CZX9PiYifD/view?usp=sharing"
                 target="_blank"
               >
                 <Button variant="secondary" className="gap-x-2">

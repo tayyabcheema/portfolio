@@ -97,7 +97,7 @@ const Form = () => {
 
         {/* WhatsApp Button */}
         <a
-          href="https://wa.me/923092867068?text=Hi%20I%20want%20to%20talk%20with%20you"
+          href="https://wa.me/40731265498?text=Hi%20I%20want%20to%20talk%20with%20you"
           target="_blank"
           rel="noopener noreferrer"
           className="w-full sm:w-auto"

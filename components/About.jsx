@@ -10,7 +10,7 @@ const infoData = [
   },
   {
     icon: <PhoneCall size={20} />,
-    name: "+92 309 2867068",
+    name: "+40731265498 ",
   },
   {
     icon: <Mail size={20} />,
@@ -22,7 +22,7 @@ const infoData = [
   },
   {
     icon: <HomeIcon size={20} />,
-    name: "Mandi-Baha-Uddin",
+    name: "Bucharest, Romania",
   },
 ];
 
@@ -57,8 +57,8 @@ const qualificationData = [
       // },
       {
         company: "Rev9 Solutions",
-        role: "Full Stack Developer",
-        years: "October 2024 - Present",
+        role: "MERN Stack Developer",
+        years: "October 2024 - November 2025",
       },
     ],
   },
